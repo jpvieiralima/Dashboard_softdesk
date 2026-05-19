@@ -1,0 +1,14 @@
+{
+    "softdesk_url": "https://seu-softdesk-url.com",
+    "hash_api": "sua-api-key-aqui",
+    "porta_servidor": 5000,
+    "intervalo_atualizacao_segundos": 120,
+    "atendentes_codigos": [],
+    "_comentarios": {
+        "softdesk_url": "URL base do seu Softdesk, sem barra no final",
+        "hash_api": "Token encontrado em: Administração > Configurações Gerais > Painel de Controle > API",
+        "porta_servidor": "Porta onde o servidor local vai rodar (padrão 5000)",
+        "intervalo_atualizacao_segundos": "De quantos em quantos segundos o servidor consulta a API (padrão 120 = 2 minutos)",
+        "atendentes_codigos": "Lista dos códigos dos atendentes para monitorar. Deixe vazio [] para buscar todos os ativos."
+    }
+}
